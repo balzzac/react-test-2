@@ -1,33 +1,92 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafafa;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  align-items: center;
+  background-color: #26ab64;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+h1 {
   color: white;
+  font-size: 2rem;
+  padding: 2rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.series-list {
+  list-style-type: none;
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.series-list-item {
+  margin: 1rem 0;
+}
+
+.series-list-link {
+  color: #26ab64;
+  font-weight: 200;
+}
+
+.paragraph {
+  margin-top: 2rem;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  padding: 2rem;
+  width: calc(100% - 4rem);
+}
+
+input {
+  border: 1px solid #26ab64;
+  height: 3rem;
+  padding: 0 1rem;
+  width: calc(100% - 2rem);
+}
+
+h2 {
+  color: #aaa;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.series-image {
+  border: 0.5rem solid #26ab64;
+  margin-top: 1rem;
+}
+
+.summary {
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
 }
