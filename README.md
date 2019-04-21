@@ -13,3 +13,5 @@
 * Pulls TV series from https://www.tvmaze.com/api#show-main-information
 * Searches TV series based on entered name
 * Provides information about entered TV Series
+
+Loader used https://giphy.com/gifs/motion-box-creep-l1BgQWSijNp2plL7G
